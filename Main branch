@@ -1,0 +1,12 @@
+import datetime
+dayoftheweek = datetime.datetime.today()
+datetime.datetime(2012, 3, 23, 23, 24, 55, 173504)
+datetime.datetime.today().weekday()
+
+
+if dayoftheweek == (0 - 4):
+    print ("Yes, unfortunately today is a weekday.")
+
+elif dayoftheweek == (5, 6):
+    print ("It is the weekend, yay!")
+
